@@ -1,4 +1,6 @@
-# Learning-Deep-Learning
-Collection of my Notes on Deep Learning in PyTorch; Most of these are a template to build code faster 
+# Learning Deep Learning & Big Data
+The collection of my Notes on: 
+1) Deep Learning in PyTorch/TensorFlow
+2) BigData through Apache Spark
 
-Constantly being upgraded
+<b>Constantly being upgraded</b>
