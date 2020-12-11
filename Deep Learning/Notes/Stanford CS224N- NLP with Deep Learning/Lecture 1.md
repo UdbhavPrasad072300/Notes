@@ -52,6 +52,11 @@ Likelihood function: P(w<sub>t+j</sub>, w<sub>t</sub>; \theta) <br>
 Theta is all variables to be optimized <br><br>
 Cost function: is the (average) negative log likelihood of probability of likelihood function
 
-<img src="./images/lecture1-1.JPG">
+<img src="./images/lecture1-1.JPG"> <br>
 
-## T
+<img src="./images/lecture1-2.JPG">
+
+Training a model, we adjust parameters to minimize a loss:
+1) We start the vectors by randomly initializing the vector and then ...
+2) Compute all vector gradients (we optimize these parameters by walking down the gradient)
+3) Remember: every word has two vectors
