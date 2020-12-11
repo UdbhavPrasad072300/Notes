@@ -34,6 +34,12 @@ This is where word vectors come in (word embeddings).
 
 ## Word2Vec
 
+<b> from additional resources: http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/ </b>
+
+Original word2vec Paper: https://arxiv.org/pdf/1301.3781.pdf
+
+Negative Sampling Paper: https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf
+
 Framework for learning word vectors. Mikolov in 2013 opened the flood gates for word vectors. <br>
 Idea:
 1) Have Large Corpus of text (large body of text)
@@ -45,3 +51,7 @@ Idea:
 Likelihood function: P(w<sub>t+j</sub>, w<sub>t</sub>; \theta) <br>
 Theta is all variables to be optimized <br><br>
 Cost function: is the (average) negative log likelihood of probability of likelihood function
+
+<img src="./images/lecture1-1.JPG">
+
+## T
