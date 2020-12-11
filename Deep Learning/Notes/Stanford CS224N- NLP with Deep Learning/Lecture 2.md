@@ -10,7 +10,28 @@ Video Link: https://www.youtube.com/watch?v=kEMJRjEdNzM&list=PLoROMvodv4rOhcuXMZ
 
 <hr>
 
-## 
+## Exploring Word Vectors
+
+A problem that we encounter is that one word can have more than one meaning. And a simple name such as "Clinton" can 
+be associated with former president even in the context of referring it your friend 
+
+We want a model that gives a reasonably high probability 
+estimate to all words that occur in the context (fairly often)
+
+In high dimensional spaces a word can be very close to another word.
+
+## Optimization
+
+small steps in the directions of negative gradient descent. alpha(learning rate) to determine how small a step to take. 
+We want to do Stochastic Gradient Descent and not "wait a very long time before making a single update" 
+
+## Word Vectors 
+
+There are two model variants:
+1) Skip-grams (SG) (what we have been talking about) <br>
+   Predict context ("outside") words (position independent) given center word
+2) Continuous Bag of Words (CBOW) <br>
+    Predict center word from (bag) of context words
 
 <img src="./images/lecture2-1.JPG"> 
 
