@@ -33,5 +33,22 @@ There are two model variants:
 2) Continuous Bag of Words (CBOW) <br>
     Predict center word from (bag) of context words
 
+## Co-occurrence Vectors
+
 <img src="./images/lecture2-1.JPG"> 
 
+Problems with this matrix:
+1) Increase size with Vocabulary
+2) Very high dimensional (requires lots of storage)
+3) Subsequent classification models have sparsity issues
+4) Models are less robust
+
+The solution to this is Low dimensional vectors (like word2vec)
+
+Dimensionality Reduction
+
+<img src="./images/lecture2-2.JPG">
+
+## Evaluating Word Vectors
+
+Intrinsic vs Extrinsic
