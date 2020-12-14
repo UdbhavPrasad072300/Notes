@@ -1,8 +1,8 @@
-# Learning Deep Learning & Big Data
+# Collection of my Notes and Code
 
-## <b>Constantly being upgraded</b>
+## <b>Constantly being updated</b>
 
-The collection of my Notes on: 
+The collection of my Notes and Code on: 
 1) Deep Learning in PyTorch/TensorFlow
 2) Big Data through Apache Spark
 
