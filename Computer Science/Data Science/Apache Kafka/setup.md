@@ -37,3 +37,24 @@ And in another Terminal:
 # Start the Kafka broker service
 sudo bin/kafka-server-start.sh config/server.properties
 ```
+
+## Making Data Directory
+
+```bash
+cd /home/kafka/kafka_2.13-2.7.0/
+mkdir data
+mkdir data/zookeeper
+mkdir data/kafka
+```
+
+In zookeeper.properties change dataDir to the following:
+
+```bash
+dataDir=/home/kafka/kafka_2.13-2.7.0/data/zookeeper
+```
+
+In config/server.properties change log.dirs to the following:
+
+```bash
+log.dirs=/home/kafka/kafka_2.13-2.7.0/data/kafka
+```
