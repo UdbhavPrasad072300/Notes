@@ -151,10 +151,12 @@ tail -f nifi-app.log
 
 ## Use NiFi
 
-go to nifiserver1:8080/nifi/ on your browser FOR ALL SERVERS
+go to nifiserver1:8080/nifi/ on your browser FOR ALL SERVERS TO DOUBLE-CHECK
 
 It will start initial work and take a while then start
 
 Verify that all nodes are connected with the icon on the top-left side
+
+You can work on any one of the server Web UI
 
 Enjoy! orrrr GET TO WORK!!!
