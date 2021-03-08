@@ -19,7 +19,7 @@ broker.rack=RACK2
 Change log.dirs as follows for each broker:
 
 ```bash
-log.dirs=/home/kafka/kafka_data
+log.dirs=/home/kafka/kafka_2.12-2.7.0/kafka_data
 ```
 
 Add the following:
