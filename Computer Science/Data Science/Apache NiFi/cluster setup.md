@@ -106,6 +106,26 @@ echo 3 >> ./state/zookeeper/myid
 
 and so on...
 
+In state-management.xml there is zk-provider id tag and inside that there is a Connect String tag:
+
+```xml
+<cluster-provider>
+        <id>zk-provider</id>
+        <class>org.apache.nifi.controller.state.providers.zookeeper.ZooKeeperStateProvider</class>
+        <property name="Connect String"></property>
+        <property name="Root Node">/nifi</property>
+        <property name="Session Timeout">10 seconds</property>
+        <property name="Access Control">Open</property>
+</cluster-provider>
+```
+
+Append to Connect String property as follows:
+
+```xml
+<!-- nifi_server_name:port_number -->
+<property name="Connect String">nifiserver1:2181</property>
+```
+
 ## Change NiFi Properties
 
 Inside nifi.properties change as follows:
@@ -151,6 +171,10 @@ Check Logs in directory:
 cd ../logs
 tail -f nifi-app.log
 ```
+
+## Helpful Tips
+
+With newer versions of software you will encounter lots of unknown problems and it's best to look at documentation, and always get the planning and prerequisites right before implementing anything on a production server (also POC environment)
 
 ## Use NiFi
 
