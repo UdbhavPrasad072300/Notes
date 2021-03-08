@@ -121,13 +121,16 @@ Change (change hostname appropriately [nifiserver1, nifiserver2, ...]):
 nifi.cluster.is.node=true
 nifi.cluster.node.address=nifiserver1
 nifi.cluster.node.protocol.port=9991
-nifi.cluster.node.load.host=nifiserver1
-nifi.cluster.node.load.balance.port=6342
+nifi.cluster.load.balance.host=nifiserver1
+
 nifi.remote.input.host=nifiserver1
 nifi.remote.input.secure=false
 nifi.remote.input.socket.port=10000
+
 nifi.web.http.host=nifiserver1
+
 nifi.state.management.embedded.zookeeper.start=true
+
 nifi.zookeeper.connect.string=nifiserver1:2181,nifiserver2:2181,nifiserver3:2181
 ```
 
