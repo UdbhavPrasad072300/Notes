@@ -1,7 +1,5 @@
 # Setup Kafka Cluster
 
-## Getting Ready
-
 ## Change Server Properties
 
 Set broker.id & broker.rack depending on the broker and/or node:
@@ -62,6 +60,13 @@ mkdir zookeeper_data
 
 ## Start Kafka & Zookeeper Cluster
 
+Start Zookeeper in each node:
+
+```bash
+# start zookeeper
+./bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
 Start Kafka in each node:
 
 ```bash
@@ -69,12 +74,7 @@ Start Kafka in each node:
 ./bin/kafka-server-start.sh config/server.properties
 ```
 
-Start Zookeeper in each node:
-
-```bash
-# start zookeeper
-./bin/zookeeper-server-start.sh config/zookeeper.properties
-```
+Always start zookeeper before kafka broker
 
 ## Testing Cluster
 
