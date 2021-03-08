@@ -74,10 +74,10 @@ server.1=
 To the following format:
 
 ```bash
-# format: server.<num>=<hostname>:2888:3888:2181
-server.1=nifiserver1:2888:3888:2181
-server.2=nifiserver2:2888:3888:2181
-server.3=nifiserver3:2888:3888:2181
+# format: server.<num>=<hostname>:2888:3888;2181
+server.1=nifiserver1:2888:3888;2181
+server.2=nifiserver2:2888:3888;2181
+server.3=nifiserver3:2888:3888;2181
 ```
 
 Make Directory for dataDir inside /home/uprasad/nifi-1.13.0/ for all servers:
