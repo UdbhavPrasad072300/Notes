@@ -64,15 +64,17 @@ Start Zookeeper in each node:
 
 ```bash
 # start zookeeper
-./bin/zookeeper-server-start.sh config/zookeeper.properties
+./bin/zookeeper-server-start.sh -daemon config/zookeeper.properties
 ```
 
 Start Kafka in each node:
 
 ```bash
 # start broker
-./bin/kafka-server-start.sh config/server.properties
+./bin/kafka-server-start.sh -daemon config/server.properties
 ```
+
+NOTE: "-daemon" makes it so that kafka and zookeeper run even when ssh is closed
 
 Always start zookeeper before kafka broker
 
