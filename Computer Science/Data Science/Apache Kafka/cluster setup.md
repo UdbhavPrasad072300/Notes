@@ -80,8 +80,8 @@ Always start zookeeper before kafka broker
 
 ## Testing Cluster
 
-ssh into any server any check:
+ssh into any server and check:
 
 ```bash
-zookeeper-shell.sh kafkabroker1:2182 ls /brokers/ids
+./bin/zookeeper-shell.sh kafkabroker1:2182 ls /brokers/ids
 ```
