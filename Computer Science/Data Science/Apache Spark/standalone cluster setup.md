@@ -1,4 +1,4 @@
-# Setup Spark Standalone Cluster
+or# Setup Spark Standalone Cluster
 
 ## Getting Ready
 
@@ -52,7 +52,7 @@ sudo mv spark-3.1.1-bin-hadoop2.7.tgz /usr/local/spark
 Add to PATH:
 
 ```bash
-export PATH = $PATH:/usr/local/spark/bin
+export PATH=$PATH:/usr/local/spark/bin
 ```
 
 ## Configure Spark Master
